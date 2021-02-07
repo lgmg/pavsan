@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "http://example.org/"
+baseURL = "http://pavsan.armada-strategy.com/"
 languageCode = "en-us"
 title = "Restaurant Pav San"
 theme = "restaurant-hugo"
