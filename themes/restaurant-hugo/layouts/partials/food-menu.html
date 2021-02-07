@@ -1,0 +1,45 @@
+{{ if site.Data.homepage.pricing.enable }}
+{{ with site.Data.homepage.pricing }}
+<section id="carte">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="block">
+					<h1 class="heading wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms" >
+						{{ .title | markdownify }}</h1>
+					<p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">
+						{{ .description | markdownify }}</p>
+					
+						{{ range .subtitle }}
+						<div class="col-md-6">
+							<div class="title">
+								<h3 style="text-align:center;">{{ .menu | markdownify }}</h3>
+							</div>
+
+								{{ range .section }}
+								<ul>
+									<div class="title">
+										<h3 style="text-align:center;">{{ .title | markdownify }}</h3>
+									</div>
+									{{ range .item }}
+									<li class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
+										<div class="item">
+											<div class="item-title">
+												<h2 style="text-align:center;">{{.title}}</h2>												
+											</div>
+											
+										</div>
+									</li>
+									{{ end }}
+								</ul>
+								{{ end }}
+						</div>
+
+						{{ end }}
+				</div>
+			</div><!-- .col-md-12 close -->
+		</div><!-- .row close -->
+	</div><!-- .containe close -->
+</section><!-- #carte close -->
+{{end}}
+{{end}}

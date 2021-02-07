@@ -1,0 +1,89 @@
+################## Hero area ##################
+hero_area:
+  enable : true
+  bg_image : "images/header.jpg"
+  overlay : true
+
+################### Gallery ###################
+gallery:
+  enable : true
+  title : " "
+  images:
+    - "images/slider/105_506830243.jpg"
+    - "images/slider/105_506830252.jpg"
+    - "images/slider/503_17918192.jpg"
+    - "images/slider/20190908-195349-largejpg.jpg"
+    - "images/slider/boeuf-loklak.jpg"
+    - "images/slider/coquille-saint-jacques.jpg"
+
+
+
+# ################ About #######################
+# about:
+#   enable : true
+#   image : "images/cooker-img.png"
+#   title : "Featured Your <span> Restaurant’s</span> Website Has To Look Good"
+#   description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </br>voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat Ut enim ad minim veniam"
+  
+
+################# food Menu ################
+pricing:
+  enable : true
+  title : "Notre <span>Menu</span>"
+  description: " "
+  subtitle : 
+  - menu : "Menu midi "
+    section:
+    - title: "entree"
+      item:
+      - title: "Nem"
+      - title: "Nem"
+      - title: "Salade"
+      - title: "Soupe"
+    - title : "plat"
+      item:
+      - title: "Nem"
+      - title: "Nem"
+      - title: "Salade"
+      - title: "Soupe"
+  - menu : "Menu midi et soir"
+    section:
+    - title: "entree"
+      item:
+      - title: "Nem"
+      - title: "Nem"
+      - title: "Salade"
+      - title: "Soupe"
+    - title : "plat"
+      item:
+      - title: "Nem"
+      - title: "Nem"
+      - title: "Salade"
+      - title: "Soupe"
+
+
+
+################# Blog ######################
+blog:
+  enable : true
+  title : "Notre <span>Carte</span>"
+  bg_image : "images/slider/boeuf-loklak.jpg"
+  overlay : true
+
+# ################### Subscription ################
+# subscription:
+#   enable : true
+#   bg_image : "images/subscribe-bg.jpg"
+#   title : "SUBSCRIBE to our <span>NEWSLETTER</span>"
+#   description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+#   #Mailchimp subscription configaration 
+#   form_action : "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
+#   formName : "b_f95ece2732a6e9925f2e70a61_b1e227529e"
+#   overlay : true
+
+################ Contact #######################
+contact:
+  enable : true
+  title: "Let's <span> Contact Us </span>"
+  subtitle: "SIGN UP FOR EMAIL ALERTS"
+  form_action : "#" #contact form works with formspree.io
