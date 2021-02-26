@@ -1,5 +1,6 @@
 ######################## default configuration ####################
-baseURL = "http://pavsan.armada-strategy.com/"
+#baseURL = "http://pavsan.armada-strategy.com/"
+relativeURLs = true
 languageCode = "en-us"
 title = "Restaurant Pav San"
 theme = "restaurant-hugo"
