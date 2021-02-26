@@ -1,6 +1,6 @@
 ######################## default configuration ####################
-#baseURL = "http://test14.armada-strategy.com/"
-relativeURLs = true
+baseURL = "/"
+#relativeURLs = true
 languageCode = "en-us"
 title = "Restaurant Pav San"
 theme = "restaurant-hugo"
