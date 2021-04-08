@@ -2,7 +2,7 @@
 baseURL = "/"
 #relativeURLs = true
 languageCode = "en-us"
-title = "Restaurant Pav San"
+title = "Restaurant Pav San2"
 theme = "restaurant-hugo"
 summaryLength = "10"
 paginate = 4
