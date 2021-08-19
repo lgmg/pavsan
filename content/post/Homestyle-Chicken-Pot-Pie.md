@@ -7,3 +7,4 @@ type: "post"
 ---
 
 test update
+test update2
